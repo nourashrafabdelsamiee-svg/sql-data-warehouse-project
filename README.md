@@ -45,19 +45,19 @@ The project follows the **Medallion Architecture** with **Bronze**, **Silver**, 
 
 ## 📂 Repository Structure
 data-warehouse-project/
-├── datasets/ # Raw CSV files from ERP & CRM
+    ├── datasets/ # Raw CSV files from ERP & CRM
 
-├── scripts/ # SQL scripts for ETL and transformations
+    ├── scripts/ # SQL scripts for ETL and transformations
 
-    │ ├── bronze/ # Raw data extraction & loading
+            │ ├── bronze/ # Raw data extraction & loading
 
-    │ ├── silver/ # Data cleaning & transformation
+            │ ├── silver/ # Data cleaning & transformation
 
-    │ └── gold/ # Analytics models & star schema
+            │ └── gold/ # Analytics models & star schema
 
-├── tests/ # Data quality & validation scripts
+    ├── tests/ # Data quality & validation scripts
 
-├── README.md # Project overview and instructions
+    ├── README.md # Project overview and instructions
 
 
 
