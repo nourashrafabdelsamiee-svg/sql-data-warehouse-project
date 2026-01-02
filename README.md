@@ -46,17 +46,24 @@ The project follows the **Medallion Architecture** with **Bronze**, **Silver**, 
 ## 📂 Repository Structure
 data-warehouse-project/
 │
-├── datasets/ # Raw CSV files from ERP & CRM
-├── docs/ # Documentation & DrawIO diagrams
-├── scripts/ # ETL and SQL scripts
-│ ├── bronze/ # Raw data loading
-│ ├── silver/ # Data cleaning & transformation
-│ ├── gold/ # Analytics models
-├── tests/ # Data quality & validation scripts
-├── README.md # Project overview
-├── LICENSE # MIT License
-├── .gitignore # Git ignore file
-└── requirements.txt # Project dependencies
+
+├──
+datasets/ # Raw CSV files from ERP & CRM
+├──
+docs/ # Documentation & DrawIO diagrams
+├──
+scripts/ # ETL and SQL scripts
+│
+├── bronze/ # Raw data loading
+│
+├── silver/ # Data cleaning & transformation
+│
+├── gold/ # Analytics models
+├──
+tests/ # Data quality & validation scripts
+├──
+README.md # Project overview
+
 
 
 
