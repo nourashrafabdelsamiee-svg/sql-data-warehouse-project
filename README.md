@@ -49,11 +49,11 @@ data-warehouse-project/
 
 ├── scripts/ # SQL scripts for ETL and transformations
 
-│ ├── bronze/ # Raw data extraction & loading
+    │ ├── bronze/ # Raw data extraction & loading
 
-│ ├── silver/ # Data cleaning & transformation
+    │ ├── silver/ # Data cleaning & transformation
 
-│ └── gold/ # Analytics models & star schema
+    │ └── gold/ # Analytics models & star schema
 
 ├── tests/ # Data quality & validation scripts
 
